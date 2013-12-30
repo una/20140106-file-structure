@@ -40,30 +40,50 @@
 				<section>
 					<img src="img/sassydc.png" alt="Sassy DC Logo">
 				</section>
-				<section data-markdown>
-				    <script type="text/template">
-				        # Perspectives on File Structure
-
-				        #### Becuase organization is the first step to efficiency
-				    </script>
+				<section data-background="#c69">	
+						<h1 style="color:white">Perspectives on File Structure</h1>
 				</section>
 				<section>
 					<p>
-						<small>Created by <a href="http://unakravets.com">Una Kravets</a> / <a href="http://twitter.com/una">@una</a></small>
-					</p>
-				</section>
-
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
+						<h3>Hello! I'm <a href="http://unakravets.com">Una Kravets</a> / <a href="http://twitter.com/una">@una</a></h3>
+						<ul>
+							<li class="fragment">wow</li>
+							<li class="fragment">such</li>
+							<li class="fragment">skillz</li>
+						</ul>
 					</p>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						I originally put those bullets in as placeholders, but I decided to keep them. Because it doesn't matter what my qualifications are. We can all learn from everyone. So I'm just going to proceed with this talk.
 					</aside>
 				</section>
+
+				<section>
+						<h2>Considerations</h2>
+						<ul>
+							<li class="fragment">Team Size</li>
+							<li class="fragment">Project Depth</li>
+							<li class="fragment">Coding Style</li>
+							<li class="fragment">Personal Preference</li>
+						</ul>
+				</section>
+
+				<section>
+					<img class="fragment" src="img/Simpsons-Angry-Mob.png" alt="angry mob">
+					<p >Let's not do this.</p>
+				</section>
+
+				<section>
+						<h2>Method 1: Dale Sande's Sass Cleanup</h2>
+						<ul class="fs-overview">
+							<li class="fragment"><span>Number of Folders:</span>High</li>
+							<li class="fragment"><span>Number of Files:</span>High</li>
+							<li class="fragment"><span>Size of Files:</span>Low</li>
+							<li class="fragment"><span>Ideal for:</span>Large Websites and Teams</li>
+						</ul>
+				</section>
+
+
 
 				<!-- Example of nested vertical slides -->
 				<section>
@@ -266,15 +286,15 @@ Reveal.addEventListener( 'customevent', function() {
 function linkify( selector ) {
   if( supports3DTransforms ) {
 
-    var nodes = document.querySelectorAll( selector );
+	var nodes = document.querySelectorAll( selector );
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+	for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+	  var node = nodes[i];
 
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
+	  if( !node.className ) {
+		node.className += ' roll';
+	  }
+	}
   }
 }
 					</code></pre>

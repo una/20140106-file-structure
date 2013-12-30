@@ -136,6 +136,10 @@ body {
 .reveal .slide-number {
   color: #669999; }
 
+.reveal h1,
+.reveal h2 {
+  font-weight: 900; }
+
 .reveal section img {
   margin: 15px 0px;
   background: none;
@@ -146,3 +150,11 @@ body {
   background: none;
   border-color: none;
   box-shadow: none; }
+
+.fs-overview li {
+  list-style: none; }
+.fs-overview span {
+  font-weight: 900;
+  color: #669999;
+  display: inline-block;
+  width: 9em; }

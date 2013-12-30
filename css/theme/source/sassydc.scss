@@ -50,7 +50,10 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 
 // Additional Overrides
-
+.reveal h1,
+.reveal h2 {
+	font-weight:900;
+}
 
 .reveal section img {
 	margin: 15px 0px;
@@ -64,3 +67,17 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 		border-color: none;
 		box-shadow: none;
 	}
+
+
+// Just for Me
+.fs-overview {
+	li {
+		list-style: none;
+	}
+	span {
+		font-weight: 900;
+		color: $patina;
+		display: inline-block;
+		width: 9em;
+	}
+}
