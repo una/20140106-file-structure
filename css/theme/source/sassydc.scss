@@ -23,6 +23,7 @@ $pale-sky: #6b717f;
 $midnight-blue: #036;
 $white: #fff;
 $dawn-pink: #f2ece4;
+$nebula: #d2e1dd;
 
 // ---------------------------------------------
 
@@ -31,19 +32,35 @@ $dawn-pink: #f2ece4;
 
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$mainFont: Source Sans Pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $mainColor: $venus;
-$headingFont: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$headingFont: Source Sans Pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $headingColor: $hopbush;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: #fff;
 $linkColor: $patina;
-$linkColorHover: $pale-sky;
+$linkColorHover: $nebula;
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
-
 
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+// Additional Overrides
+
+
+.reveal section img {
+	margin: 15px 0px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+	.reveal a:hover img {
+		background: none;
+		border-color: none;
+		box-shadow: none;
+	}
